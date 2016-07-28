@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288461FF1D489FA500BF5569 /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 288461FD1D489FA500BF5569 /* Function.cpp */; };
 		28C361EF1D42035E00DCAF9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361EE1D42035E00DCAF9A /* main.cpp */; };
+		28C361F71D42046400DCAF9A /* Calculation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361F51D42046400DCAF9A /* Calculation.cpp */; };
+		28C361FA1D4206C600DCAF9A /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361F81D4206C600DCAF9A /* Expression.cpp */; };
+		28C361FD1D420DC900DCAF9A /* ExpressionParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */; };
+		28D64C8B1D439AFA004C0E62 /* libSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D64C871D439799004C0E62 /* libSQLite3.a */; };
+		28D64C8D1D439B97004C0E62 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		288461FD1D489FA500BF5569 /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
+		288461FE1D489FA500BF5569 /* Function.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
 		28C361EB1D42035E00DCAF9A /* Numerical Analysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Numerical Analysis"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C361EE1D42035E00DCAF9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28C361F51D42046400DCAF9A /* Calculation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculation.cpp; sourceTree = "<group>"; };
+		28C361F61D42046400DCAF9A /* Calculation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Calculation.hpp; sourceTree = "<group>"; };
+		28C361F81D4206C600DCAF9A /* Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expression.cpp; sourceTree = "<group>"; };
+		28C361F91D4206C600DCAF9A /* Expression.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Expression.hpp; sourceTree = "<group>"; };
+		28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionParser.cpp; sourceTree = "<group>"; };
+		28C361FC1D420DC900DCAF9A /* ExpressionParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExpressionParser.hpp; sourceTree = "<group>"; };
+		28D64C871D439799004C0E62 /* libSQLite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSQLite3.a; path = "Numerical Analysis/libSQLite3.a"; sourceTree = "<group>"; };
+		28D64C891D439AD7004C0E62 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D64C8D1D439B97004C0E62 /* libsqlite3.0.tbd in Frameworks */,
+				28D64C8B1D439AFA004C0E62 /* libSQLite3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +60,9 @@
 		28C361E21D42035E00DCAF9A = {
 			isa = PBXGroup;
 			children = (
+				28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */,
+				28D64C891D439AD7004C0E62 /* libsqlite3.tbd */,
+				28D64C871D439799004C0E62 /* libSQLite3.a */,
 				28C361ED1D42035E00DCAF9A /* Numerical Analysis */,
 				28C361EC1D42035E00DCAF9A /* Products */,
 			);
@@ -58,6 +80,14 @@
 			isa = PBXGroup;
 			children = (
 				28C361EE1D42035E00DCAF9A /* main.cpp */,
+				28C361F51D42046400DCAF9A /* Calculation.cpp */,
+				28C361F61D42046400DCAF9A /* Calculation.hpp */,
+				28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */,
+				28C361FC1D420DC900DCAF9A /* ExpressionParser.hpp */,
+				288461FD1D489FA500BF5569 /* Function.cpp */,
+				288461FE1D489FA500BF5569 /* Function.hpp */,
+				28C361F81D4206C600DCAF9A /* Expression.cpp */,
+				28C361F91D4206C600DCAF9A /* Expression.hpp */,
 			);
 			path = "Numerical Analysis";
 			sourceTree = "<group>";
@@ -119,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28C361EF1D42035E00DCAF9A /* main.cpp in Sources */,
+				28C361FA1D4206C600DCAF9A /* Expression.cpp in Sources */,
+				288461FF1D489FA500BF5569 /* Function.cpp in Sources */,
+				28C361FD1D420DC900DCAF9A /* ExpressionParser.cpp in Sources */,
+				28C361F71D42046400DCAF9A /* Calculation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +199,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -202,6 +237,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -209,6 +245,12 @@
 		28C361F31D42035E00DCAF9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Numerical",
+					Analysis,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +258,12 @@
 		28C361F41D42035E00DCAF9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Numerical",
+					Analysis,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +287,7 @@
 				28C361F41D42035E00DCAF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
