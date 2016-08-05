@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288461FF1D489FA500BF5569 /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 288461FD1D489FA500BF5569 /* Function.cpp */; };
+		28C361EF1D42035E00DCAF9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361EE1D42035E00DCAF9A /* main.cpp */; };
+		28C361F71D42046400DCAF9A /* Calculation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361F51D42046400DCAF9A /* Calculation.cpp */; };
+		28C361FA1D4206C600DCAF9A /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361F81D4206C600DCAF9A /* Expression.cpp */; };
+		28C361FD1D420DC900DCAF9A /* ExpressionParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */; };
+		28D64C8B1D439AFA004C0E62 /* libSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D64C871D439799004C0E62 /* libSQLite3.a */; };
+		28D64C8D1D439B97004C0E62 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28C361E91D42035E00DCAF9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		288461FD1D489FA500BF5569 /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
+		288461FE1D489FA500BF5569 /* Function.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
+		28C361EB1D42035E00DCAF9A /* Numerical Analysis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Numerical Analysis"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C361EE1D42035E00DCAF9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28C361F51D42046400DCAF9A /* Calculation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculation.cpp; sourceTree = "<group>"; };
+		28C361F61D42046400DCAF9A /* Calculation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Calculation.hpp; sourceTree = "<group>"; };
+		28C361F81D4206C600DCAF9A /* Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expression.cpp; sourceTree = "<group>"; };
+		28C361F91D4206C600DCAF9A /* Expression.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Expression.hpp; sourceTree = "<group>"; };
+		28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionParser.cpp; sourceTree = "<group>"; };
+		28C361FC1D420DC900DCAF9A /* ExpressionParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExpressionParser.hpp; sourceTree = "<group>"; };
+		28D64C871D439799004C0E62 /* libSQLite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSQLite3.a; path = "Numerical Analysis/libSQLite3.a"; sourceTree = "<group>"; };
+		28D64C891D439AD7004C0E62 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C361E81D42035E00DCAF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D64C8D1D439B97004C0E62 /* libsqlite3.0.tbd in Frameworks */,
+				28D64C8B1D439AFA004C0E62 /* libSQLite3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C361E21D42035E00DCAF9A = {
+			isa = PBXGroup;
+			children = (
+				28D64C8C1D439B97004C0E62 /* libsqlite3.0.tbd */,
+				28D64C891D439AD7004C0E62 /* libsqlite3.tbd */,
+				28D64C871D439799004C0E62 /* libSQLite3.a */,
+				28C361ED1D42035E00DCAF9A /* Numerical Analysis */,
+				28C361EC1D42035E00DCAF9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C361EC1D42035E00DCAF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C361EB1D42035E00DCAF9A /* Numerical Analysis */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C361ED1D42035E00DCAF9A /* Numerical Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				28C361EE1D42035E00DCAF9A /* main.cpp */,
+				28C361F51D42046400DCAF9A /* Calculation.cpp */,
+				28C361F61D42046400DCAF9A /* Calculation.hpp */,
+				28C361FB1D420DC900DCAF9A /* ExpressionParser.cpp */,
+				28C361FC1D420DC900DCAF9A /* ExpressionParser.hpp */,
+				288461FD1D489FA500BF5569 /* Function.cpp */,
+				288461FE1D489FA500BF5569 /* Function.hpp */,
+				28C361F81D4206C600DCAF9A /* Expression.cpp */,
+				28C361F91D4206C600DCAF9A /* Expression.hpp */,
+			);
+			path = "Numerical Analysis";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C361EA1D42035E00DCAF9A /* Numerical Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C361F21D42035E00DCAF9A /* Build configuration list for PBXNativeTarget "Numerical Analysis" */;
+			buildPhases = (
+				28C361E71D42035E00DCAF9A /* Sources */,
+				28C361E81D42035E00DCAF9A /* Frameworks */,
+				28C361E91D42035E00DCAF9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Numerical Analysis";
+			productName = "Numerical Analysis";
+			productReference = 28C361EB1D42035E00DCAF9A /* Numerical Analysis */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C361E31D42035E00DCAF9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "于京平";
+				TargetAttributes = {
+					28C361EA1D42035E00DCAF9A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 28C361E61D42035E00DCAF9A /* Build configuration list for PBXProject "Numerical Analysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28C361E21D42035E00DCAF9A;
+			productRefGroup = 28C361EC1D42035E00DCAF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C361EA1D42035E00DCAF9A /* Numerical Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C361E71D42035E00DCAF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C361EF1D42035E00DCAF9A /* main.cpp in Sources */,
+				28C361FA1D4206C600DCAF9A /* Expression.cpp in Sources */,
+				288461FF1D489FA500BF5569 /* Function.cpp in Sources */,
+				28C361FD1D420DC900DCAF9A /* ExpressionParser.cpp in Sources */,
+				28C361F71D42046400DCAF9A /* Calculation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28C361F01D42035E00DCAF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28C361F11D42035E00DCAF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28C361F31D42035E00DCAF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Numerical",
+					Analysis,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28C361F41D42035E00DCAF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Numerical",
+					Analysis,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lsqlite3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C361E61D42035E00DCAF9A /* Build configuration list for PBXProject "Numerical Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C361F01D42035E00DCAF9A /* Debug */,
+				28C361F11D42035E00DCAF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C361F21D42035E00DCAF9A /* Build configuration list for PBXNativeTarget "Numerical Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C361F31D42035E00DCAF9A /* Debug */,
+				28C361F41D42035E00DCAF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C361E31D42035E00DCAF9A /* Project object */;
+}
